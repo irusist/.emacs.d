@@ -41,7 +41,7 @@
 
 (global-hungry-delete-mode)
 
-(require 'smartparens-config)
+;; (require 'smartparens-config)  autoload 的， 去掉
 ;;(add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
 (smartparens-global-mode t)
 

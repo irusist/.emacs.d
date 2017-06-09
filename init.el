@@ -9,6 +9,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 (require 'init-packages)
+(require 'init-ui)
 
 (setq ring-bell-function 'ignore)
 

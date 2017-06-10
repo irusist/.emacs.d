@@ -15,4 +15,13 @@
 
 (global-set-key (kbd "C-c p f") 'counsel-git)
 
+(global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
+
+(global-set-key (kbd "s-/") 'hippie-expand)
+
+;;(require 'dired)
+(with-eval-after-load 'dired
+  (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))  ;; 运行 dired mode后执行body的内容
+
+
 (provide 'init-keybindings)
